@@ -37,9 +37,9 @@ class Controller:
         
     
     def clock(self):
-        
+        # calls update ui
         self.update_ui()
-            
+        # calls clock method after 100ms   
         self.view.after(100, self.clock) 
     
    
