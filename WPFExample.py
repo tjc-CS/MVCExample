@@ -1,14 +1,14 @@
 
 
 import random
-import re
+
 import tkinter as tk
 from tkinter import ttk
 import time
 
 import datetime
-from turtle import bgcolor
-from wsgiref.util import setup_testing_defaults
+
+
 
 class Game:
     def __init__(self):
