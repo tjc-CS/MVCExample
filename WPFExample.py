@@ -37,7 +37,7 @@ class Controller:
         
     
     def clock(self):
-        time = datetime.datetime.now().strftime("Time: %H:%M:%S")
+        
         self.update_ui()
             
         self.view.after(100, self.clock) 
